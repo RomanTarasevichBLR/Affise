@@ -1,0 +1,11 @@
+<suite name="Tests" >
+    <listeners>
+        <listener class-name="listener.TestListener"/>
+    </listeners>
+    <test name="User tests">
+        <parameter name="User tests" value="Users"/>
+        <classes>
+            <class name="UserTests" />
+        </classes>
+    </test>
+</suite>
